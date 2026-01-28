@@ -1,6 +1,6 @@
 # Dining Philosophers (Java)
 
-Team Members: Sanjana Nalla, Tejaswi Paladugu
+Team Members: Sanjana Nalla, Tejaswi Paladugu, Vedant Chanshetty
 
 ## How to run
 
