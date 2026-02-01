@@ -26,7 +26,7 @@ java DiningPhilosophers 7          # optional: specify philosopher count (>=2)
 - **Starvation mitigation**:
 	- Both the semaphore and fork locks use fairness (`true`), so waiting philosophers are queued FIFO.
 	- Bounded work (finite meals, bounded think/eat times) keeps the system moving; a waiting philosopher eventually reaches the front of each queue.
-- **Residual risk**: with fair primitives and total ordering, starvation is highly improbable in this finite simulation. In theory, starvation can still occur in unbounded runs on a preemptive scheduler, but the chosen patterns make it effectively negligible for the assignment scenario.
+- **Residual risk**: With fair primitives and total ordering, starvation is highly improbable in this finite simulation. In theory, starvation can still occur in unbounded runs on a preemptive scheduler, but the chosen patterns make it effectively negligible for the assignment scenario.
 
 ## Judicious output
 
